@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/natapone/express-omise-ui/issues"
   },
-  "homepage": "https://github.com/natapone/express-omise-ui#readme"
+  "homepage": "https://github.com/natapone/express-omise-ui#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
