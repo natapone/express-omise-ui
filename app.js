@@ -7,6 +7,7 @@ var routes_pay = require('./routes/pay');
 
 app.use('/', routes_index);
 app.use('/pay', routes_pay);
+
 app.use('/static', express.static('public'))
 
 app.use(function(err, req, res, next) {
