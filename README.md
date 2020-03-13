@@ -6,4 +6,6 @@ $ cd ~/project/express-omise-ui
 $ node app.js
 $ node app.js --inspect
 
-http://localhost:3000
+# Path
+Home: http://localhost:3000
+CSS: http://localhost:3000/static/css/bootstrap.min.css
