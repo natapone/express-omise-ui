@@ -9,3 +9,9 @@ $ node app.js --inspect
 # Path
 Home: http://localhost:3000
 CSS: http://localhost:3000/static/css/bootstrap.min.css
+
+# Mongodb
+
+$ mongo --port 27017
+'> use animals
+'> db.mammals.insertOne( { 'dog': 1 } );
